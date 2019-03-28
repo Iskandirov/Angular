@@ -1,7 +1,20 @@
-<p>
-  Hello {{ownerName}}!!))
-</p>
-
-<ul>
-  <li *ngFor="let lang of languages">{{lang}}</li>
-</ul>
+<table >
+  <h2>{{ownerName}}</h2>
+  <h3>{{workplace}}</h3>
+  <hr style="border: 1px solid"/>
+  <p><img src="../assets/Images/face.jpg" alt="image" style="float: right; width: 200px;height: 200px;"></p>
+  <p>Phone number: {{phonenumber}}</p>
+  <hr/>
+  <p>email: {{email}}</p>
+  <hr/>
+  <p>Living: {{Living}}</p>
+  <hr/>
+  <p>Wanted salary: {{WantedSalary}}</p>
+  <hr/>
+  <p>citizenship: {{citizenship}}</p>
+  <hr/>
+  <p>Language: {{Language}}</p>
+  <ul>
+    <li *ngFor="let lang of languages">{{lang}}</li>
+  </ul>
+</table>
